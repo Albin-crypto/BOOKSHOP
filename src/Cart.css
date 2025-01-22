@@ -1,0 +1,76 @@
+/* Container Styles */
+.cart-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .cart-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Card Styles */
+  .cart-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cart-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cart-card-img {
+    width: 56%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-btn,
+  .cart-remove-btn {
+    margin-top: 8px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cart-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cart-remove-btn:hover {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Payment Section */
+  .payment-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .payment-btn {
+    background-color: green;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  .payment-btn:hover {
+    background-color: #005700;
+  }
+  
+  .home-link {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .home-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+   
